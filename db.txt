@@ -1,0 +1,8 @@
+create database comments;
+use comments;
+CREATE TABLE IF NOT EXISTS comments_user (
+user_id INT PRIMARY KEY auto_increment,
+username VARCHAR(50) NOT NULL,
+title VARCHAR(255) NOT NULL
+
+);

@@ -1,0 +1,105 @@
+.scm-filter {
+    background: #eee;
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+.scm-filter .pull-left {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+.scm-filter input {
+    width: 400px;
+    padding: 18px 10px;
+  }
+.scm-filter .scm-newest {
+    padding-left: 15px;
+    color: #f00;
+  }
+.scm-filter .scm-newest:hover,
+.scm-filter .scm-likest:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+ 
+  .scm-textarea-box1 {
+    margin-top: 20px;
+}
+
+.scm-wrap-ava {
+    border: 1px solid #d5d5d5;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-left: 10px;
+    margin-right: -15px;
+  }
+.scm-rating-box {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+.scm-rating-box h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 26px;
+  }
+.scm-rating-box .scm-comment-count,
+.scm-rating-box .scm-rating {
+    display: block;
+    margin-top: 40px;
+  }
+.scm-rating-box .scm-rating {
+    font-size: 30px;
+    color: #ffa500;
+  }
+.scm-rating-box .scm-comment-count {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 5px;
+    float: left;
+  }
+.scm-rating-box .row {
+    margin-top: 15px;
+  }
+.scm-rating-box .row:last-child {
+    margin-bottom: 25px;
+  }
+.scm-textarea-box textarea {
+    margin-top: 10px;
+  }
+.scm-process-bar {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background: #d4d4d4;
+  }
+.scm-process-bar .scm-process {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    background: #ffa500;
+  }
+.scm-comment {
+    margin-top: 10px;
+  }
+.scm-comment .scm-comment-head {
+    font-weight: bold;
+    font-size: 16px;
+  }
+.scm-comment .scm-comment-body {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+.scm-comment .scm-comment-addition {
+    margin-top: 5px;
+  }
+.scm-comment .scm-comment-addition .scm-comment-time {
+    color: #a0a0a0;
+  }
+.scm-comment .scm-comment-addition .scm-comment-action > a {
+    margin-left: 15px;
+  }
+  
